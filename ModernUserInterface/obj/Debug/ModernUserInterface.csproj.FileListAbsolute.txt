@@ -1,0 +1,16 @@
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\bin\Debug\ModernUserInterface.exe.config
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\bin\Debug\ModernUserInterface.exe
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\bin\Debug\ModernUserInterface.pdb
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.csproj.AssemblyReference.cache
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.csproj.SuggestedBindingRedirects.cache
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\MainWindow.g.cs
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\App.g.cs
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface_MarkupCompile.cache
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface_MarkupCompile.lref
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\MainWindow.baml
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.g.resources
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.Properties.Resources.resources
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.csproj.GenerateResource.cache
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.csproj.CoreCompileInputs.cache
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.exe
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.pdb
