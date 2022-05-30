@@ -32,5 +32,26 @@ namespace ModernUserInterface
                 DragMove();
             }   
         }
+        private void websiteButton_click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/verhovenskyivan");
+        }
+
+        
+        private void closeButton_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void closeButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.Shutdown();
+        }
+
+        private void websiteButton_Click(object sender, RoutedEventArgs e)
+        { 
+        }
+
+
     }
 }

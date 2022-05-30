@@ -56,18 +56,52 @@
                        FontWeight="Medium"
                        />
 
-            <TextBlock Text="Website"
-                       Foreground="LightGray"
-                       Grid.Column="3"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       FontWeight="Medium" />
-                     
-            <Button Content="Start"
+            <Button Name="websiteButton"
+                    Content="Website"
+                    Click="websiteButton_Click"
+                    Foreground="White"
+                    Background="#393850"
+                    FontSize="14"
+                    Grid.Column="2"
+                    VerticalAlignment="Center"
+                    HorizontalContentAlignment="Center"
+                    FontWeight="Medium"
+                    Grid.ColumnSpan="3" Margin="45,0,28,0" RenderTransformOrigin="0.752,0.36"
+ >
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#393850"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#393850">
+                                </Setter>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Width="75" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button x:Name="closeButton" Content="Close"
+                           Click="closeButton_Click"
                            Foreground="White"
                            FontSize="14"
                            FontWeight="Medium"
                            Margin="0,0,10,0"
+                  
                Grid.Column="12"
                Grid.ColumnSpan="2"
                     >
@@ -160,10 +194,10 @@
                             <Style.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background" Value="#FF4C70"/>
-                                    
+
                                 </Trigger>
                             </Style.Triggers>
-                            
+
                         </Style>
                     </Button.Style>
 
@@ -186,6 +220,7 @@
                            FontSize="14"
                            FontWeight="Medium">
                     <Button.Style>
+
                         <Style TargetType="Button">
                             <Setter Property="Background" Value="#393850"/>
                             <Setter Property="Cursor" Value="Hand"/>
@@ -213,8 +248,8 @@
                     </Button.Template>
                 </Button>
             </StackPanel>
-            
-            
+
+
         </StackPanel>
 
         <Grid Grid.Column="1"
@@ -252,8 +287,8 @@
                             CornerRadius="20"
                            />
                 </StackPanel>
-                
-                
+
+
             </StackPanel>
 
             <StackPanel Orientation="Horizontal"
