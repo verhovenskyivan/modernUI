@@ -14,3 +14,5 @@ C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInt
 C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.csproj.CoreCompileInputs.cache
 C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.exe
 C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\ModernUserInterface.pdb
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\Page1.g.cs
+C:\Users\verhovensky\source\repos\simplecode 2\ModernUserInterface\ModernUserInterface\obj\Debug\Page1.baml

@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+
+
 namespace ModernUserInterface
 {
     /// <summary>
@@ -20,9 +23,11 @@ namespace ModernUserInterface
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+          
         }
 
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
@@ -34,7 +39,7 @@ namespace ModernUserInterface
         }
         private void websiteButton_click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/verhovenskyivan");
+            
         }
 
         
@@ -49,9 +54,24 @@ namespace ModernUserInterface
         }
 
         private void websiteButton_Click(object sender, RoutedEventArgs e)
-        { 
+        {
+            
         }
 
+        private void Application_NavigationFailed(object sender,
+       System.Windows.Navigation.NavigationFailedEventArgs e)
+        {
+            if (e.Exception is System.Net.WebException)
+            {
+                MessageBox.Show("Сайт " + e.Uri.ToString() + " не доступен :(");
+                // Нейтрализовать ошибку, чтобы приложение продолжило свою работу
+                e.Handled = true;
+            }
+        }
 
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new Page1();
+        }
     }
 }

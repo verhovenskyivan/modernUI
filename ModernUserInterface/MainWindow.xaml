@@ -9,6 +9,8 @@
        WindowStyle="None"
        ResizeMode="NoResize"
        Background="#181735">
+
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
@@ -46,17 +48,17 @@
                        Grid.Column="1"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
-                       FontWeight="Medium" />
+                       FontWeight="Medium"/>
 
             <TextBlock Text="Menu"
                        Foreground="LightBlue"
                        Grid.Column="2"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Center"
-                       FontWeight="Medium"
-                       />
+                       FontWeight="Medium"/>
 
             <Button Name="websiteButton"
+                  
                     Content="Website"
                     Click="websiteButton_Click"
                     Foreground="White"
@@ -66,8 +68,8 @@
                     VerticalAlignment="Center"
                     HorizontalContentAlignment="Center"
                     FontWeight="Medium"
-                    Grid.ColumnSpan="3" Margin="45,0,28,0" RenderTransformOrigin="0.752,0.36"
- >
+                    Grid.ColumnSpan="3" Margin="45,0,28,0" RenderTransformOrigin="0.752,0.36" Cursor="Hand">
+                
                 <Button.Style>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="#393850"/>
@@ -103,7 +105,7 @@
                            Margin="0,0,10,0"
                   
                Grid.Column="12"
-               Grid.ColumnSpan="2"
+               Grid.ColumnSpan="2" Cursor="Hand"
                     >
 
                 <Button.Style>
@@ -135,6 +137,7 @@
             </Button>
 
         </Grid>
+        <Frame x:Name="MainFrame"/>
 
         <StackPanel Grid.Row="1"
                     VerticalAlignment="Center"
@@ -216,9 +219,12 @@
 
 
                 <Button Content="Register"
-                           Foreground="White"
-                           FontSize="14"
-                           FontWeight="Medium">
+                        Name="registerButton"
+                        Click="registerButton_Click"
+                        Foreground="White"
+                        FontSize="14"
+                        FontWeight="Medium" Cursor="Hand">
+                    
                     <Button.Style>
 
                         <Style TargetType="Button">
@@ -252,14 +258,14 @@
 
         </StackPanel>
 
+        
         <Grid Grid.Column="1"
               Grid.RowSpan="2"
               Margin="160,-365,-610,85"
-              Panel.ZIndex="-1"
-              >
-
-
+              Panel.ZIndex="-1">
+           
             <Grid.RenderTransform>
+                
                 <RotateTransform Angle="50"/>
 
             </Grid.RenderTransform>
@@ -268,6 +274,7 @@
                         Margin="-350,250,-255,-250">
 
                 <StackPanel>
+                    
                     <Border Width="700"
                             Height="35"
                             Background="White"
@@ -287,7 +294,6 @@
                             CornerRadius="20"
                            />
                 </StackPanel>
-
 
             </StackPanel>
 
@@ -295,6 +301,7 @@
                         Margin="500, 250, -120,-120">
 
                 <StackPanel>
+                    
                     <Border Width="700"
                             Height="35"
                             Background="White"
@@ -313,13 +320,13 @@
                             Margin="75,15,0,0"
                             CornerRadius="20"
                            />
+                    
                 </StackPanel>
 
-
             </StackPanel>
-
 
         </Grid>
 
     </Grid>
+    
 </Window>
