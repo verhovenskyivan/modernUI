@@ -29,7 +29,7 @@ namespace ModernUserInterface
             InitializeComponent();
           
         }
-
+        //Метод для перетаскивания приложения по рабочему столу с помощью мыши
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if(e.LeftButton == MouseButtonState.Pressed)
@@ -41,13 +41,8 @@ namespace ModernUserInterface
         {
             
         }
-
-        
-        private void closeButton_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            this.Close();
-        }
-
+ 
+        //Полное закрытие приложения
         private void closeButton_Click(object sender, RoutedEventArgs e)
         {
             App.Current.Shutdown();
@@ -57,7 +52,7 @@ namespace ModernUserInterface
         {
             
         }
-
+     //Метод на случай отсутствия подключения к интернету, либо других ошибок при навигации
         private void Application_NavigationFailed(object sender,
        System.Windows.Navigation.NavigationFailedEventArgs e)
         {
@@ -68,10 +63,11 @@ namespace ModernUserInterface
                 e.Handled = true;
             }
         }
-
+    //Метод перехода на другую страницу внутри приложения
         private void registerButton_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Content = new Page1();
+            
         }
     }
 }
